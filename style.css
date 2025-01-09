@@ -190,7 +190,12 @@ section{
 /* .section_pic-container img{
     height: 350px;
     width: 350px;
+    border-radius: 50%;
 } */
+
+.profile_pic{
+    border-radius: 50%;
+}
 
 .section_text{
     align-self: center;
@@ -334,8 +339,11 @@ section{
 }
 
 .education_list{
-  padding: 5px 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
   color: rgb(53, 53, 53);
+  text-align: left;
 }
 
 /* EXPERIENCE */
@@ -386,6 +394,11 @@ article {
 .color-container{
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
+    max-inline-size: 30%;
+}
+
+.projects-container{
+   justify-content: center;
 }
 
 .project-img{
@@ -402,6 +415,12 @@ article {
 .project.btn{
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+.project_desc{
+    text-align: left;
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 
 /* CONTACT */
