@@ -41,6 +41,7 @@
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
+    justify-content: center;
   }
   .about-container {
     margin-top: 0;
@@ -67,6 +68,7 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    gap: 5px;
   }
   .contact-info-container {
     margin: 0;
